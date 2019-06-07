@@ -1,0 +1,34 @@
+{
+    "name": "twsihan/php-extras",
+    "description": "Php Extras",
+    "keywords": [
+        "extension",
+        "extras",
+        "plugins",
+        "helpers"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/twsihan/php-extras/issues",
+        "source": "https://github.com/twsihan/php-extras"
+    },
+    "authors": [
+        {
+            "name": "Twsi Han",
+            "email": "twsihan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "twsihan\\extras\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
